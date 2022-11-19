@@ -5,4 +5,4 @@ U = u1*x^2 + u2*x*y + u3*y^2 +u4*x + u5*y + u6
 T = diff(x, A) * diff(y, U) - diff(y, A) * diff(x, U)
 
 I = ideal(A, U, T)
-"T_A_U" << tex eliminate(y, eliminate(x, I)) << endl << close
+--"T_A_U" << tex eliminate(y, eliminate(x, I)) << endl << close
